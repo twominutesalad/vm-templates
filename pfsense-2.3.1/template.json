@@ -19,9 +19,9 @@
         ]
     }, 
     "config": {
-        "ncpus": 1, 
+        "ncpus": 2, 
         "bootloader": "BHYVELOAD", 
-        "memsize": 1024,
+        "memsize": 4096,
         "minmemsize": 512,
         "boot_device": "os"
     }, 
@@ -30,7 +30,7 @@
             "type": "DISK", 
             "name": "os", 
             "properties": {
-                "size": 1073741824, 
+                "size": 10737418240, 
                 "mode": "AHCI", 
                 "source": "os"
             }
